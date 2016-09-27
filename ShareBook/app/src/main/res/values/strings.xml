@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">ShareBook</string>
     <string name="action_settings">Settings</string>
+    <string name="signUpLabel">Sign Up</string>
+    <string name="SignInLabel">Sign In</string>
+    <string name="connectWithGoogleLabel">Connect With Google</string>
+    <string name="connectWithFacebookLabel">Connect With Facebook</string>
+    <string name="dialog_title_error">Ups... we have a problem..!</string>
+    <string name="loadingMessage">Loading...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
