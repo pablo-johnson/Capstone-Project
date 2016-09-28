@@ -7,14 +7,9 @@
     tools:context="com.johnson.pablo.sharebook.ui.signIn.welcome.WelcomeFragment"
     tools:showIn="@layout/activity_welcome">
 
-    <android.support.v4.view.ViewPager
-        android:id="@+id/loginViewPager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
     <Button
         android:id="@+id/signUpButton"
-        android:layout_width="200dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
@@ -25,7 +20,7 @@
 
     <Button
         android:id="@+id/signInButton"
-        android:layout_width="200dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
@@ -49,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/connectWithGoogleButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/connectWithFacebookLabel" />
 
 </RelativeLayout>

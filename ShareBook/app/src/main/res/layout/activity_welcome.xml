@@ -7,20 +7,27 @@
     android:fitsSystemWindows="true"
     tools:context="com.johnson.pablo.sharebook.ui.signIn.welcome.WelcomeActivity">
 
-    <android.support.design.widget.AppBarLayout
+
+    <RelativeLayout
+        android:id="@+id/content_main"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent"
+        tools:context="com.johnson.pablo.sharebook.ui.signIn.welcome.WelcomeFragment"
+        tools:showIn="@layout/activity_welcome">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
+        <android.support.v4.view.ViewPager
+            android:id="@+id/loginViewPager"
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+            android:layout_height="match_parent" />
 
-    </android.support.design.widget.AppBarLayout>
+        <FrameLayout
+            android:id="@+id/signUpContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp" />
 
-    <include layout="@layout/content_welcome" />
+
+    </RelativeLayout>
 
 </android.support.design.widget.CoordinatorLayout>
