@@ -12,4 +12,9 @@
     <string name="userLabel">User</string>
     <string name="passwordLabel">Password</string>
     <string name="loginLabel">Login</string>
+    <string name="forgotPasswordLabel">Forgot your password?</string>
+    <string name="nameLabel">Name</string>
+    <string name="emailLabel">Email</string>
+    <string name="confirmPasswordLabel">Confirm Password</string>
+    <string name="registerLabel">Register</string>
 </resources>

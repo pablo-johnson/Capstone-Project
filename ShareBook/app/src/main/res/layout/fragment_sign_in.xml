@@ -43,13 +43,23 @@
 
     </android.support.design.widget.TextInputLayout>
 
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/passwordWrapper"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/forgotPasswordLabel" />
+
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/passwordWrapper"
+        android:layout_below="@id/forgotPassword"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="@string/loginLabel" />
 

@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.johnson.pablo.sharebook.R;
 import com.johnson.pablo.sharebook.ui.common.ShareBookFragment;
 import com.johnson.pablo.sharebook.ui.signIn.signIn.SignInFragment;
+import com.johnson.pablo.sharebook.ui.signIn.signUp.SignUpFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -23,6 +24,11 @@ public class WelcomeFragment extends ShareBookFragment {
     @OnClick(R.id.signInButton)
     public void onSignInClick() {
         fragmentListener.replaceFragment(R.id.signUpContainer, SignInFragment.newInstance(), true);
+    }
+
+    @OnClick(R.id.signUpButton)
+    public void onSignUpClick() {
+        fragmentListener.replaceFragment(R.id.signUpContainer, SignUpFragment.newInstance(), true);
     }
 
     @BindView(R.id.signUpButton)
