@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.johnson.pablo.sharebook.ui.signIn.welcome.WelcomeFragment"
-    tools:showIn="@layout/activity_welcome">
+    android:layout_height="220dp"
+    android:background="@drawable/papyrus_bg"
+    tools:context="com.johnson.pablo.sharebook.ui.signIn.welcome.WelcomeFragment">
 
     <Button
         android:id="@+id/signUpButton"
@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_marginBottom="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginRight="10dp"
         android:text="@string/signUpLabel" />
 
@@ -26,7 +26,7 @@
         android:layout_alignParentRight="true"
         android:layout_marginBottom="20dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginRight="30dp"
         android:text="@string/SignInLabel" />
 
     <Button
@@ -35,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/signUpButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="10dp"
         android:text="@string/connectWithGoogleLabel" />
 
     <Button
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/connectWithGoogleButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="5dp"
         android:text="@string/connectWithFacebookLabel" />
 
 </RelativeLayout>

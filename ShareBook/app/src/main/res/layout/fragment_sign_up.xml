@@ -107,7 +107,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/confirmPasswordWrapper"
         android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
         android:gravity="center"
         android:text="@string/registerLabel" />
 

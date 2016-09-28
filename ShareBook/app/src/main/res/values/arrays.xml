@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="portraits">
+        <item>@drawable/port_first</item>
+        <item>@drawable/port_second</item>
+        <item>@drawable/port_third</item>
+        <item>@drawable/port_fourth</item>
+    </array>
+</resources>
