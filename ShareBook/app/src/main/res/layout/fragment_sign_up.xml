@@ -1,8 +1,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="375dp"
+    android:layout_gravity="bottom"
     android:layout_margin="10dp"
+    android:background="@drawable/papyrus_bg"
+    android:gravity="bottom"
     tools:context="com.johnson.pablo.sharebook.ui.signIn.signUp.SignUpFragment">
 
     <android.support.design.widget.TextInputLayout
