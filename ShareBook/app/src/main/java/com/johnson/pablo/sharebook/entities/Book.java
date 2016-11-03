@@ -12,6 +12,7 @@ public class Book {
     private String portraitUrl;
     private Genre genre;
     private Author author;
+    private String isbnCode;
 
     public int getId() {
         return id;
@@ -67,5 +68,13 @@ public class Book {
 
     public void setAuthor(Author author) {
         this.author = author;
+    }
+
+    public String getIsbnCode() {
+        return isbnCode;
+    }
+
+    public void setIsbnCode(String isbnCode) {
+        this.isbnCode = isbnCode;
     }
 }

@@ -7,6 +7,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.firebase.crash.FirebaseCrash;
 import com.johnson.pablo.sharebook.R;
 import com.johnson.pablo.sharebook.adapters.HomeViewPagerAdapter;
 import com.johnson.pablo.sharebook.ui.common.ShareBookActivity;
@@ -21,6 +24,7 @@ public class HomeActivity extends ShareBookActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseCrash.log("Activity created");
         setContentView(R.layout.activity_home);
         ButterKnife.bind(this);
 
@@ -42,6 +46,10 @@ public class HomeActivity extends ShareBookActivity {
             tabLayout.getTabAt(i).setIcon(tabIcons[i]);
             tabLayout.getTabAt(i).setText("");
         }
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
     }
 

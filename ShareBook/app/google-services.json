@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "460670561880",
+    "firebase_url": "https://sharebook-5ff66.firebaseio.com",
+    "project_id": "sharebook-5ff66",
+    "storage_bucket": "sharebook-5ff66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460670561880:android:864e849e831fda7a",
+        "android_client_info": {
+          "package_name": "com.johnson.pablo.sharebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460670561880-4vk7si39eoudljra9ccmmfdajic71r5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.johnson.pablo.sharebook",
+            "certificate_hash": "E962B45D6CD81A7A95FF7AE4AF2F258628CBFD54"
+          }
+        },
+        {
+          "client_id": "460670561880-fu0q571h8pn7ptal75udmvpmub60h4vn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4ckbAlS94wKcp5_ra-b1vs9gMaRMmW_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460670561880-fu0q571h8pn7ptal75udmvpmub60h4vn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

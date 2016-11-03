@@ -1,4 +1,4 @@
-package com.johnson.pablo.sharebook.ui.home;
+package com.johnson.pablo.sharebook.ui.library;
 
 
 import android.os.Bundle;
@@ -10,21 +10,20 @@ import android.view.ViewGroup;
 import com.johnson.pablo.sharebook.R;
 import com.johnson.pablo.sharebook.ui.common.ShareBookFragment;
 
-import butterknife.ButterKnife;
-
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link HomeFragment#newInstance} factory method to
+ * Use the {@link MyLibraryFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HomeFragment extends ShareBookFragment implements HomeView {
+public class MyLibraryFragment extends ShareBookFragment {
 
-    public HomeFragment() {
+
+    public MyLibraryFragment() {
         // Required empty public constructor
     }
 
-    public static HomeFragment newInstance() {
-        HomeFragment fragment = new HomeFragment();
+    public static MyLibraryFragment newInstance() {
+        MyLibraryFragment fragment = new MyLibraryFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
@@ -38,9 +37,8 @@ public class HomeFragment extends ShareBookFragment implements HomeView {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
-        ButterKnife.bind(this, view);
-        return view;
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_library, container, false);
     }
 
 }

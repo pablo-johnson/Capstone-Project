@@ -5,9 +5,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.util.Log;
 
-import com.johnson.pablo.sharebook.ui.home.favorites.FavoritesFragment;
+import com.johnson.pablo.sharebook.ui.favorites.FavoritesFragment;
 import com.johnson.pablo.sharebook.ui.home.HomeFragment;
-import com.johnson.pablo.sharebook.ui.home.library.MyLibraryFragment;
+import com.johnson.pablo.sharebook.ui.library.MyLibraryFragment;
 
 /**
  * Created by pjohnson on 24/10/2016.
